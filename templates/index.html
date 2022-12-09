@@ -1,0 +1,380 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Njajan</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="/static/styles/style.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700">
+  </head>
+  <body>
+    <!-- Awal Scroll Up -->
+    <a href="#" id="toTopBtn" class="cd-top text-replace js-cd-top cd-top--is-visible cd-top--fade-out" data-abc="true"></a>
+    <!-- Akhir Scroll Up -->
+
+    <!-- Awal Navbar -->
+    <div>
+      <div class="header-blue" style="font-family: 'Poppins', sans-serif;">
+          <nav class="navbar navbar-dark navbar-expand-md navigation-clean-search">
+              <div class="container"><a class="navbar-brand" href="#"><img src="{{url_for('static', filename='images/fast-food.png')}}" width="30" height="24" class="d-inline-block align-text-top"> Njajanbot</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                  <div class="collapse navbar-collapse"
+                      id="navcol-1">
+                      <ul class="nav navbar-nav">
+                          <li class="nav-item">
+                            <a class="nav-link" href="#section0">About</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#section1">Chat</a>
+                          </li>
+                      </ul>
+              </div>
+              <img src="{{url_for('static', filename='images/synthesis.png')}}" width="10%"class="d-inline-block align-text-top d-flex justify-content-end">
+          </nav>
+          <div class="container hero">
+              <div class="row">
+                  <div class="col-12 col-lg-6 col-xl-5 offset-xl-1">
+                      <p style="font-size: 40px;"> <strong>Recommendation Food & Drink</strong>, <br> In Your gadget with Njajan Bot</p>
+                      <p>Ayo chat njajanbot segera</p>
+                      <a href="#section1">
+                        <button type="button" class="btn btn-outline-warning" style="font-size: 20px; border-radius: 15px;">Chat Sekarang</button>
+                        </a>
+                  </div>
+                  <div
+                      class="col-md-5 col-lg-5 offset-lg-1 offset-xl-0 d-none d-lg-block phone-holder">
+                      <div class="iphone-mockup"><img src="/static/images/iphone.svg" class="device">
+                          <div class="screen"></div>
+                      </div>
+              </div>
+          </div>
+      </div>
+  </div>
+    </div>
+    <!-- AKhir Navbar -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+    <!-- Awal Garis -->
+    <div class="container" id="section0">
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-10"><hr></div>
+            <div class="col-1"></div>
+        </div>
+    </div>
+    <!-- Akhir Garis -->
+
+    <!-- Awal Profil Team -->
+	<section id="team">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1">
+					<div class="sec-heading text-center">
+						<h6 style="font-family: 'Poppins', sans-serif; font-size: 35px;"><b>Our team</b></h6>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="testimonial-box">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="team-slider owl-carousel">
+							<div class="single-box text-center">
+								<div class="img-area"><img alt="" class="img-fluid move-animation" src="{{url_for('static', filename='images/farras.png')}}"></div>
+								<div class="info-area" style="font-family: 'Poppins', sans-serif;">
+									<h4>Rizki Farras Pratama</h4>
+									<p>Lead</p><a href="https://www.instagram.com/rizkifarrasp/" target="_blank">Contact</a>
+								</div>
+							</div>
+							<div class="single-box text-center">
+								<div class="img-area"><img alt="" class="img-fluid move-animation" src="{{url_for('static', filename='images/famela.png')}}"></div>
+								<div class="info-area" style="font-family: 'Poppins', sans-serif;">
+									<h4>Famela Tiara Intan</h4>
+									<p>Co-Lead</p><a href="https://www.instagram.com/famela.tiara/" target="_blank">Contact</a>
+								</div>
+							</div>
+							<div class="single-box text-center">
+								<div class="img-area"><img alt="" class="img-fluid move-animation" src="{{url_for('static', filename='images/romi.png')}}"></div>
+								<div class="info-area" style="font-family: 'Poppins', sans-serif;">
+									<h4>Ikromi Latifano</h4>
+									<p>Web Developer</p><a href="https://www.instagram.com/ikromii_ltfano/" target="_blank">Contact</a>
+								</div>
+							</div>
+							<div class="single-box text-center">
+								<div class="img-area"><img alt="" class="img-fluid move-animation" src="{{url_for('static', filename='images/salwa.png')}}"></div>
+								<div class="info-area" style="font-family: 'Poppins', sans-serif;">
+									<h4>Salwa Nabyla</h4>
+									<p>Data team</p><a href="https://www.instagram.com/bilabong___01/" target="_blank">Contact</a>
+								</div>
+							</div>
+							<div class="single-box text-center">
+								<div class="img-area"><img alt="" class="img-fluid move-animation" src="{{url_for('static', filename='images/adinta.png')}}"></div>
+								<div class="info-area" style="font-family: 'Poppins', sans-serif;">
+									<h4>Adienta Fracellya D</h4>
+									<p>Data team</p><a href="https://www.instagram.com/adintaaaaf_/" target="_blank">Contact</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+  <!-- ======= Why Us Section ======= -->
+  <section id="why-us" class="why-us section-bg" style="padding-top: 5vw; font-family: 'Poppins', sans-serif;">
+    <div class="container" data-aos="fade-up">
+
+      <div class="row gy-4">
+
+        <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="why-box">
+            <h3 style="color: black;">Apa itu Njajanbot dan kenapa harus Njajanbot ?</h3>
+            <p style="font-size: 15px; text-align: justify;">
+              Njajan adalah aplikasi yang dapat merekomendasikan jenis makanan , minuman , bahkan jajanan untuk kamu yang sering bingung dalam menentukan pilihan. Hanya dengan memilih beberapa fitur pilihan dari jenis makanan atau minuman, sobat Njajan bisa langsung mendapatkan rekomendasi kombinasi makanan atau minuman yang cocok satu sama lain. Yuk! Langsung cobain! Kamu mau Njajan apa hari ini?
+            </p>
+            <div class="text-center">
+              <a href="#section1">
+                <button type="button" class="btn btn-outline-success" style="margin-top: 0.3vw; font-size: 20px; border-radius: 15px;">Chat Sekarang</button>
+                </a>
+            </div>
+          </div>
+        </div><!-- End Why Box -->
+
+        <div class="col-lg-8 d-flex align-items-center">
+          <div class="row gy-4">
+
+            <div class="col-xl-4" data-aos="fade-up" data-aos-delay="200">
+              <div class="icon-box d-flex flex-column justify-content-center align-items-center">
+                <img src="{{url_for('static', filename='images/variety.png')}}" width="33" height="27">
+                <h4 style="font-size: 30px;">Variety</h4>
+                <p style="font-size: 16px;">Berbagai jenis makanan & jajanan. Baik minuman tradisional maupun modern</p>
+              </div>
+            </div><!-- End Icon Box -->
+
+            <div class="col-xl-4" data-aos="fade-up" data-aos-delay="300">
+              <div class="icon-box d-flex flex-column justify-content-center align-items-center">
+                <img src="{{url_for('static', filename='images/access.png')}}" width="33" height="27">
+                <h4 style="font-size: 30px;">Access</h4>
+                <p style="font-size: 16px;">Mudah di akses dari device manapun seperti laptop, tablet atau handphone</p>
+              </div>
+            </div><!-- End Icon Box -->
+
+            <div class="col-xl-4" data-aos="fade-up" data-aos-delay="400">
+              <div class="icon-box d-flex flex-column justify-content-center align-items-center">
+                <img src="{{url_for('static', filename='images/quantity.png')}}" width="33" height="27">
+                <h4 style="font-size: 30px;">Quantity</h4>
+                <p style="font-size: 16px;">Lebih dari 1000 jenis makanan daging, sayur atau seafood, minuman dan jajanan</p>
+              </div>
+            </div><!-- End Icon Box -->
+
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section><!-- End Why Us Section -->
+
+    <!-- Awal JS Profile Team -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+	</script> 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+	</script> 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js">
+	</script> 
+	<script>
+	       $('.team-slider').owlCarousel({
+	           loop: true,            
+	           nav: false,
+	           autoplay: true,
+	           autoplayTimeout: 5000,
+	           smartSpeed: 450,
+	           margin: 20,
+	           responsive: {
+	               0: {
+	                   items: 1
+	               },
+	               768: {
+	                   items: 2
+	               },
+	               991: {
+	                   items: 3
+	               },
+	               1200: {
+	                   items: 3
+	               },
+	               1920: {
+	                   items: 3
+	               }
+	           }
+	       });
+	</script>
+    <!-- Akhir JS Profile Team -->
+    <!-- Akhir Profil Team -->
+    <!-- Akhir About -->
+
+    <!-- Awal Garis -->
+    <div class="container" style="margin-top:5vw;" id="section1">
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-10"><hr></div>
+            <div class="col-1"></div>
+        </div>
+    </div>
+    <!-- Akhir Garis -->
+
+    <!-- Awal Judul -->
+    <div class="container" style="font-family: 'Poppins', sans-serif;">
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-10">
+                <p style="font-size: 35px; text-align: center; font-family: 'Poppins', sans-serif;" ><b>Njajan</b></p>
+            </div>
+            <div class="col-1"></div>
+        </div>
+    </div>
+    <!-- Akhir Judul -->
+
+    <!-- Awal body chatbot -->
+    <div class="chatbot-body" id="section2">
+        <div class="msger">
+          <header class="msger-header">
+            <div class="msger-header-title">
+              <i class="fas fa-robot"></i> NjajanBot <i class="fas fa-robot"></i>
+            </div>
+          </header>
+      
+          <main class="msger-chat">
+            <div class="msg left-msg">
+              <div class="msg-img"></div>
+              <div class="msg-bubble">
+                <div class="msg-info">
+                  <div class="msg-info-name">NjajanBot</div>
+                  <div class="now">Sekarang</div>
+                </div>
+      
+                <div class="msg-text">
+                   Selamat datang di NjajanBot👋
+                </div>
+              </div>
+            </div>
+          </main>
+      
+          <form class="msger-inputarea">
+            <input type="text" class="msger-input" id="textInput" placeholder="Masukkan pesanmu disini...">
+            <button type="submit" class="msger-send-btn">SEND</button>
+          </form>
+        </div>
+    </div>
+
+    <!-- Awal JS Chatbot -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="{{ url_for('static', filename='js/all.js') }}"></script>
+    <script>
+      const msgerForm = get(".msger-inputarea");
+      const msgerInput = get(".msger-input");
+      const msgerChat = get(".msger-chat");
+
+      // Icons made by Freepik from www.flaticon.com
+      const BOT_IMG = "/static/images/bot2.png";
+      const PERSON_IMG = "/static/images/man.png";
+      const BOT_NAME = "NjajanBot";
+      const PERSON_NAME = "Me";
+
+      msgerForm.addEventListener("submit", event => {
+        event.preventDefault();
+
+        const msgText = msgerInput.value;
+        if (!msgText) return;
+
+        appendMessage(PERSON_NAME, PERSON_IMG, "right", msgText);
+        msgerInput.value = "";
+        botResponse(msgText);
+      });
+
+      function appendMessage(name, img, side, text) {
+        //   Simple solution for small apps
+        const msgHTML = `
+        <div class="msg ${side}-msg">
+          <div class="msg-img" style="background-image: url(${img})"></div>
+
+          <div class="msg-bubble">
+            <div class="msg-info">
+              <div class="msg-info-name">${name}</div>
+              <div class="msg-info-time">${formatDate(new Date())}</div>
+            </div>
+
+            <div class="msg-text">${text}</div>
+          </div>
+        </div>
+        `;
+
+        msgerChat.insertAdjacentHTML("beforeend", msgHTML);
+        msgerChat.scrollTop += 500;
+      }
+
+      function botResponse(rawText) {
+        // Bot Response
+        $.get("/get", { msg: rawText }).done(function (data) {
+          console.log(rawText);
+          console.log(data);
+          const msgText = data[0]; // res
+          const addText = data[1]; // addition
+
+          appendMessage(BOT_NAME, BOT_IMG, "left", msgText); // cetak res dlm bubble
+          
+          if(!(addText === "")) {
+            appendMessage(BOT_NAME, BOT_IMG, "left", addText); // cetak addition dlm bubble
+          }
+        });
+
+      }
+
+      // Utils
+      function get(selector, root = document) {
+        return root.querySelector(selector);
+      }
+
+      function formatDate(date) {
+        const h = "0" + date.getHours();
+        const m = "0" + date.getMinutes();
+
+        return `${h.slice(-2)}:${m.slice(-2)}`;
+      }
+    </script>
+    <!-- Akhir JS Chatbot -->
+
+    <!-- Akhir body chatbot -->
+
+    <!-- Awal Garis -->
+    <div class="container">
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-10"><hr></div>
+            <div class="col-1"></div>
+        </div>
+    </div>
+    <!-- Akhir Garis -->
+
+    <!-- Awal Footer -->
+    <div class="container" style="font-family: 'Poppins', sans-serif;">
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-10"><p style="text-align:center; font-size: 20px;">&copy;2022 created with <img src="{{url_for('static', filename='/images/love.svg')}}" alt=""> by athena team from artemis class  </p></div>
+            <div class="col-1"></div>
+        </div>
+    </div>
+    <!-- Akhir Footer -->
+    
+  </body>
+</html>
